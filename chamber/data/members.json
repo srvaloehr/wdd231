@@ -1,102 +1,102 @@
 {
-    "members":[
-        {
-            "name" : "Salt River Project",
-            "address": {
-                "street": "Av. Ipiranga, 6681",
-                "city": "Phoenix",
-                "state": "RS",
-                "country": "Maricopa",
-                "zip": "85203"
-            }, 
-            "phone" : "+1 602-727- 8827",
-            "website": "https:https://www.srpnet.com/",
-            "imageurl": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
-            "membershiplevel": "silver"
-        },
-        {
-            "name": "VerdeSul Florestas e Meio Ambiente",
-            "address": {
-                "street": "Rua Dona Laura, 205",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "90430-091"
-            },
-            "phone": "+55 51 3345-7788",
-            "website": "https://www.verdesul.com.br",
-            "imageurl": "https://images.pexels.com/photos/26076138/pexels-photo-26076138.jpeg",
-            "membershiplevel": "Gold"
-        },
-        {
-            "name": "Confeitaria Alegre Doces",
-            "address": {
-                "street": "Rua José do Patrocínio, 834",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "90050-002"
-            },
-            "phone": "+55 51 3092-4567",
-            "website": "https://www.cafealegredoces.com",
-            "imageurl": "https://images.pexels.com/photos/251610/pexels-photo-251610.jpeg",
-            "membershiplevel": "member"
-        },
-        {
-            "name": "PortoMed Diagnósticos",
-            "address": {
-                "street": "Av. Protásio Alves, 3950",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "91310-001"
-            },
-            "phone": "+55 51 3333-1122",
-            "website": "https://www.portomeddiagnosticos.com.br",
-            "imageurl": "https://images.pexels.com/photos/4226123/pexels-photo-4226123.jpeg",
-            "membershiplevel": "silver"
-        },
-        {
-            "name": "Nuvem Gaúcha TI",
-            "address": {
-                "street": "Rua Mostardeiro, 100",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "90430-000"
-            },
-            "phone": "+55 51 3201-9988",
-            "website": "https://www.nuvemgaucha.com",
-            "imageurl": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg",
-            "membershiplevel": "gold"
-        },
-        {
-            "name": "Artesanato do Guaíba",
-            "address": {
-                "street": "Av. Diário de Notícias, 300",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "90810-000"
-            },
-            "phone": "+55 51 98765-4321",
-            "website": "https://www.artesanatodoguaiba.com.br",
-            "imageurl": "https://images.pexels.com/photos/1108532/pexels-photo-1108532.jpeg",
-            "membershiplevel": "member"
-        },
-        {
-            "name": "EduLab Criativo",
-            "address": {
-                "street": "Av. Bento Gonçalves, 4000",
-                "city": "Porto Alegre",
-                "state": "RS",
-                "country": "Brasil",
-                "zip": "91540-000"
-            },
-            "phone": "+55 51 3100-2020",
-            "website": "https://www.edulabcriativo.com.br",
-            "imageurl": "https://images.pexels.com/photos/8471787/pexels-photo-8471787.jpeg",
-            "membershiplevel": "Innovation Circle"
-        }
-    ]
+  "members": [
+    {
+      "name": "Salt River Project",
+      "address": {
+        "street": "100 E Rio Salado Parkway",
+        "city": "Mesa",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85201"
+      },
+      "phone": "+1 480-123-4567",
+      "website": "https://www.srpnet.com/",
+      "imageurl": "https://images.pexels.com/photos/32699740/pexels-photo-32699740.jpeg",
+      "membershiplevel": "silver"
+    },
+    {
+      "name": "Grand Canyon Tech Solutions",
+      "address": {
+        "street": "500 N Central Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85004"
+      },
+      "phone": "+1 602-555-7890",
+      "website": "https://www.grandcanyontech.com/",
+      "imageurl": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg",
+      "membershiplevel": "gold"
+    },
+    {
+      "name": "Desert Bloom Bakery",
+      "address": {
+        "street": "1200 E Southern Ave",
+        "city": "Tempe",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85282"
+      },
+      "phone": "+1 480-555-2345",
+      "website": "https://www.desertbloombakery.com/",
+      "imageurl": "https://images.pexels.com/photos/251610/pexels-photo-251610.jpeg",
+      "membershiplevel": "member"
+    },
+    {
+      "name": "Cactus Valley Diagnostics",
+      "address": {
+        "street": "2200 W Chandler Blvd",
+        "city": "Chandler",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85224"
+      },
+      "phone": "+1 480-555-6789",
+      "website": "https://www.cactusvalleydiagnostics.com/",
+      "imageurl": "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
+      "membershiplevel": "silver"
+    },
+    {
+      "name": "Sonoran Cloud Services",
+      "address": {
+        "street": "300 E Main St",
+        "city": "Mesa",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85201"
+      },
+      "phone": "+1 480-555-1122",
+      "website": "https://www.sonorancloud.com/",
+      "imageurl": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg",
+      "membershiplevel": "gold"
+    },
+    {
+      "name": "Arizona Handcrafted Goods",
+      "address": {
+        "street": "1500 S Dobson Rd",
+        "city": "Mesa",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85202"
+      },
+      "phone": "+1 480-555-3344",
+      "website": "https://www.azhandcrafted.com/",
+      "imageurl": "https://images.pexels.com/photos/33398017/pexels-photo-33398017.jpeg",
+      "membershiplevel": "member"
+    },
+    {
+      "name": "EduTech Mesa",
+      "address": {
+        "street": "400 N Center St",
+        "city": "Mesa",
+        "state": "AZ",
+        "country": "USA",
+        "zip": "85201"
+      },
+      "phone": "+1 480-555-5566",
+      "website": "https://www.edutechmesa.com/",
+      "imageurl": "https://images.pexels.com/photos/12407401/pexels-photo-12407401.jpeg",
+      "membershiplevel": "Innovation Circle"
+    }
+  ]
 }

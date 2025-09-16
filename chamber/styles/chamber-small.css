@@ -226,45 +226,37 @@ main p {
     padding: 4px 15px;
     text-align: justify;
 }
-/**
-#cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 25px;
-    place-items: center;
+#cards.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 25px;
+  place-items: center;
 }
 
-#cards section{
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding-bottom: 20px;
-    min-width: 350px;
-    background-color: #ddd;
+#cards.grid section {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  min-width: 350px;
+  background-color: #ddd;
 }
 
-#cards h3{
-    padding: 20px;
-    text-align: center;
-    margin-top: 0;
-    background-color: var(--primary-color);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+#cards.list {
+  display: flex;
+  flex-direction: column;
 }
 
-#cards p {
-    text-align: center;
-    padding-left: 10px;
-    line-height: 2px;
-    font-size: smaller;
+#cards.list section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0.25rem;
+  border: 1px solid #ddd;
 }
 
-#cards img{
-    display: block;
-    width: 200px;
-    height: auto;
-    border: 2px solid #858383;
-    margin: 0 auto;
-} **/
+#cards.list img {
+  display: none;
+}
 
 
 /*********** footer ************/
