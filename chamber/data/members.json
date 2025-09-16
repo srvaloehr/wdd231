@@ -1,16 +1,16 @@
 {
     "members":[
         {
-            "name" : "Gaucha Software Sistems",
+            "name" : "Salt River Project",
             "address": {
                 "street": "Av. Ipiranga, 6681",
-                "city": "Porto Alegre",
+                "city": "Phoenix",
                 "state": "RS",
-                "country": "Brasil",
-                "zip": "90619-900"
+                "country": "Maricopa",
+                "zip": "85203"
             }, 
-            "phone" : "+55 51 3024-1234",
-            "website": "https://www.gauchasoftware.com.br",
+            "phone" : "+1 602-727- 8827",
+            "website": "https:https://www.srpnet.com/",
             "imageurl": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
             "membershiplevel": "silver"
         },
