@@ -1,0 +1,102 @@
+{
+    "members":[
+        {
+            "name" : "Gaucha Software Sistems",
+            "address": {
+                "street": "Av. Ipiranga, 6681",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "90619-900"
+            }, 
+            "phone" : "+55 51 3024-1234",
+            "website": "https://www.gauchasoftware.com.br",
+            "imageurl": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+            "membershiplevel": "silver"
+        },
+        {
+            "name": "VerdeSul Florestas e Meio Ambiente",
+            "address": {
+                "street": "Rua Dona Laura, 205",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "90430-091"
+            },
+            "phone": "+55 51 3345-7788",
+            "website": "https://www.verdesul.com.br",
+            "imageurl": "https://images.pexels.com/photos/26076138/pexels-photo-26076138.jpeg",
+            "membershiplevel": "Gold"
+        },
+        {
+            "name": "Confeitaria Alegre Doces",
+            "address": {
+                "street": "Rua José do Patrocínio, 834",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "90050-002"
+            },
+            "phone": "+55 51 3092-4567",
+            "website": "https://www.cafealegredoces.com",
+            "imageurl": "https://images.pexels.com/photos/251610/pexels-photo-251610.jpeg",
+            "membershiplevel": "member"
+        },
+        {
+            "name": "PortoMed Diagnósticos",
+            "address": {
+                "street": "Av. Protásio Alves, 3950",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "91310-001"
+            },
+            "phone": "+55 51 3333-1122",
+            "website": "https://www.portomeddiagnosticos.com.br",
+            "imageurl": "https://images.pexels.com/photos/4226123/pexels-photo-4226123.jpeg",
+            "membershiplevel": "silver"
+        },
+        {
+            "name": "Nuvem Gaúcha TI",
+            "address": {
+                "street": "Rua Mostardeiro, 100",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "90430-000"
+            },
+            "phone": "+55 51 3201-9988",
+            "website": "https://www.nuvemgaucha.com",
+            "imageurl": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg",
+            "membershiplevel": "gold"
+        },
+        {
+            "name": "Artesanato do Guaíba",
+            "address": {
+                "street": "Av. Diário de Notícias, 300",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "90810-000"
+            },
+            "phone": "+55 51 98765-4321",
+            "website": "https://www.artesanatodoguaiba.com.br",
+            "imageurl": "https://images.pexels.com/photos/1108532/pexels-photo-1108532.jpeg",
+            "membershiplevel": "member"
+        },
+        {
+            "name": "EduLab Criativo",
+            "address": {
+                "street": "Av. Bento Gonçalves, 4000",
+                "city": "Porto Alegre",
+                "state": "RS",
+                "country": "Brasil",
+                "zip": "91540-000"
+            },
+            "phone": "+55 51 3100-2020",
+            "website": "https://www.edulabcriativo.com.br",
+            "imageurl": "https://images.pexels.com/photos/8471787/pexels-photo-8471787.jpeg",
+            "membershiplevel": "Innovation Circle"
+        }
+    ]
+}

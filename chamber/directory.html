@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" WDD 231 - Stephen Loehr Chamber of Commerce">
+    <meta name="author" content="Stephen Loehr">
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:description" content="Chamber of Commerce">
+    <meta property="og:url" content="https://srvaloehr.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://srvaloehr.github.io/wdd231/chamber/images/og-image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title> Mesa Chamber of commerce </title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+</head>
+<body>
+    <header>
+            <img src="images/home.svg" alt="site logo" width="500" height="500">
+            <span> Mesa Chamber of Commerce</span>
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+     </nav>
+    <main>
+        <h1>Home</h1>
+        <img id="hero" src="images/IMG_AZ_small.jpg" alt="chamber image" width="1900" height="1200">
+        <div class="block">
+            <section class="section-events">
+                <h2>Events</h2>
+                <p>Pickleball Club- Tuesday Nights 7:00pm</p>
+            </section>
+            <section class="section-weather">
+                <h2>Current Weather</h2>
+                <img src="images/weather.svg" alt="weather icon" width="170" height="180">
+                <div>
+                    <p>Temperature: 91°F</p>
+                    <p>Conditions: Sunny</p>
+                    <p>High: 97°F</p>
+                    <p>Low: 74°F</p>
+                    <p>Wind: 5 mph</p>
+                    <p>Humidity: 3%</p>
+                    <p>Sunrise: 6:28 AM</p>
+                    <p>Sunset: 6:15 PM</p>
+                </div>
+            </section>
+            <section class="section-forecast">
+                <h2>Weather Forecast</h2>
+                <p>Today:74°F - 89°F</p>
+                <p>Saturday:80°F- 93°F</p>
+                <p>Sunday:83°F - 92°F</p>
+            </section>
+        </div>
+        <div class="members-menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <article class="grid">
+            <div id="cards"></div>
+        </article>
+    </main>
+    <footer>
+        <div>
+            <p>Mesa Chamber of Commerce</p>
+            <p>507 E Wade Lane</p>
+            <p>Maricopa, Mesa, AZ</p>
+            <p> 480-655-9490</p>
+            <p>cityofmesa@mesaaz.com.br</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/srvaloehr" target="_blank"><img src="images/github.svg" alt="github link" width="16" height="16"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin link" width="16" height="16"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="instagram link" width="16" height="16"></a>
+        </div>
+        <div>
+            <p>WDD231 Chamber Commerce</p>
+            <p>Stephen Loehr</p>
+            <p>©<span id="currentyear"></span> | Stephen Loehr | Mesa Chamber of commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

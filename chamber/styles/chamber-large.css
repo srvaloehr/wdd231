@@ -1,0 +1,58 @@
+@media only screen and (min-width: 38rem) {
+
+
+    header,
+    main,
+    nav footer,
+    .navigation {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+        background-color: var(--primary-color);
+        padding: 20px;
+    }
+
+    header img{
+        padding-bottom: 4px;
+    }
+
+    header span{
+        text-align: left;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: end;
+        border-bottom: solid 1px #eee;
+    }
+    
+    .navigation ul {
+        display: flex;
+        gap: 10px;
+        padding-left: 10px;
+    }
+    
+    .navigation a {
+        border: none;
+    }
+
+    .block {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--secondary-color);
+    }
+
+}
