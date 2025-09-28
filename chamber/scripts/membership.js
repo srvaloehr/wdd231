@@ -4,7 +4,7 @@ const memberships = [
     {
         subject: 'NP 💸 Membership Level',
         title: 'for non-profit organizations',
-        description: 'Ideal for registered nonprofits seeking access to essential resources without financial barriers. Includes full platform access, community support, and collaboration tools at no cost.',
+        description: 'Great for free access with no cost to you.',
         price: '0.0 $ '
     },
     {
