@@ -11,19 +11,19 @@ const memberships = [
         subject: 'Bronze 🥉 Membership Level',
         title: 'Starter Membership',
         description: 'Perfect for individuals or small teams beginning their journey. Includes basic platform access, limited support, and access to community forums.',
-        price: '19.99 $ '
+        price: '14.99 $ '
     },
     {
         subject: 'Silver 🥈 Membership Level',
         title: 'Growth Membership',
         description: 'Designed for growing teams needing more flexibility. Includes full platform access, priority support, analytics dashboard, and monthly strategy sessions.',
-        price: '49.99 $ '
+        price: '76.99 $ '
     },
     {
         subject: 'Gold 🏆 Membership Level',
         title: 'Premium Membership',
         description: 'Tailored for organizations seeking maximum impact. Includes all Silver benefits plus dedicated account manager, custom integrations, early feature access, and exclusive networking events.',
-        price: '99.99 $ '
+        price: '85.99 $ '
     }
 ];
 
