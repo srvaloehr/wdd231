@@ -45,9 +45,10 @@ const displayMembers = (members) => {
 
 async function loadMembers() {
     try {
-        const response = await fetch("chamber/data/members.json");
+        const response = await fetch("data/members.json");
+        console.log("Fetch status:", response.status);
         const data = await response.json();
-        displayMembers(data.members);
+        console.log("Data loaded:", data);
     } catch (err) {
         console.error("Error loading members:", err);
     }

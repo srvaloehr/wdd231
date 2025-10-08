@@ -107,6 +107,12 @@ header span {
     grid-gap: 25px;
     place-items: center;
 }
+.grid #cards, #spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+}
 
 .grid section {
     border: 1px solid #ddd;
@@ -283,13 +289,15 @@ input[type=submit] {
     animation: fadeIn 1s ease-in;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+@keyframes pulse {
+    0% {
+        color: black;
     }
-
-    to {
-        opacity: 1;
+    50% {
+        color: #61433cce;
+    }
+    100% {
+        color: black;
     }
 }
 
@@ -314,6 +322,59 @@ dialog button {
     right: 23px;
     padding: .5rem 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
+}
+/* discovery.html */
+
+
+#pCards div {
+    display: grid;
+    margin: 2rem 0;
+    border: 1px solid var(--secondary-color);
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "address"
+    "button";
+}
+
+#pCards div img {
+    width: 100%;
+    height: auto;
+    grid-area: photo;
+}
+
+#pCards div h2 {
+    text-align: center;
+    font-weight: 500;
+    grid-area: name;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+#pCards div p{
+    grid-area: description;
+    font-weight: 600;
+}
+
+#pCards div address{
+    grid-area: address;
+    padding: 20px;
+    text-align: center;
+}
+
+#pCards div button {
+    grid-area: button;
+    text-align: center;
+    background-color: var(--primary-color);
+    max-width: 200px;
+    padding: 20px;
+    margin: 5px auto;
+    border-radius: 20px;
 }
 
 
