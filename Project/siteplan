@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Plan</title>
+    <meta name="description" content="Art guide" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monda:wght@500..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/siteplan.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Site Name</h1>
+      <p>
+        The name of the website will be: ArtMag. I chose this name becasue it is 
+        fun and inviting. It will hold various information artwork to inspire.
+      </p>
+    </div>
+    <div>
+      <h1>Site Purpose</h1>
+      <p>
+        The purpose of this site will to provide information for those that are 
+        looking learn about art or get inpired for their own projects. 
+      </p>
+    </div>
+    <div>
+      <h1>Scenarios</h1>
+      <p>Do you know the greats of art?</p>
+      <p>What style are you going for?</p>
+    </div>
+    <div>
+      <h1>Color Schema</h1>
+      <p>
+        This is my color palette:
+        <a href="https://coolors.co/e71d36-08b2e3-efe9f4-19180a"
+          >here</a
+        >
+      </p>
+      <p>Primary color: Red</p>
+      <div id="primary-color"></div>
+      <p>Secondary color: Blue</p>
+      <div id="secondary-color"></div>
+      <p>Primary color will be used for the navigation component</p>
+      <p>Secondary color will be used for accents on the site</p>
+    </div>
+    <div>
+      <h1>Typography</h1>
+      <p>
+        I chose the Monda font for this project.
+      </p>
+    </div>
+    <div>
+      <h1>Wireframe</h1>
+      <p>Mobile View Wireframe</p>
+      <img src="images/mobileframe.PNG" alt="mobile view wireframe" />
+      <p>Desktop View Wireframe</p>
+      <img
+        src="images/webframe.PNG"
+        alt="desktop view wireframe"
+        id="desktop-view-wireframe"
+      />
+    </div>
+  </body>
+</html>
