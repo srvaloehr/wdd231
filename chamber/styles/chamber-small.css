@@ -346,6 +346,7 @@ dialog button {
     width: 100%;
     height: auto;
     grid-area: photo;
+    
 }
 
 #pCards div h2 {

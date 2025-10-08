@@ -4,50 +4,50 @@
             "name": "Mesa Arts Center",
             "address": "1 E. Main Street, Mesa, AZ",
             "cost": "$0-20",
-            "description": "Interactive science museum with hands-on exhibits, including a zero-gravity room and robotics displays.",
+            "description": "Modern art pieces and attractions. Classes avaliable",
             "photo": "images/pic1.webp"
         },
         {
             "name": "Commemorative Air Force Museum",
             "address": "2017 N. Greenfield Rd, Mesa, AZ 85215",
             "cost": "$15-20",
-            "description": "Historic Italian-style theater offering concerts, plays, and cultural performances in a stunning architectural setting.",
+            "description": "Airplanes and copters the cool stuff.",
             "photo": "images/pic2.webp"    },
         {
             "name": "Golfland Sunsplash",
             "address": "155 W Hampton Ave, Mesa, AZ 85210",
             "cost": "$35.99",
-            "description": "Former power plant turned cultural center with exhibitions, events, and sunset views over Guaíba Lake.",
+            "description": "Ride some waves and feel the water. Dont get burnt",
             "photo": "images/pic3.webp"    },
         {
             "name": "Mesa Historical Museum",
             "address": "2345 N Horne St, Mesa, AZ",
             "cost": "Free-Donation",
-            "description": "Popular urban park with jogging paths, playgrounds, and a replica of a Dutch windmill.",
+            "description": "See the prehistoric animal and creatures that built us.",
             "photo": "images/pic4.webp"    },
         {
             "name": "Mesa Market Place Swap Meet",
             "address": "10550 E Baseline Rd, Mesa, AZ",
             "cost": "Free entry; food and goods vary",
-            "description": "Historic public market with over 100 shops offering local produce, crafts, and traditional cuisine.",
+            "description": "Come meet everyone that is selling something.",
             "photo": "images/pic5.webp"    },
         {
             "name": "Mesa Temple & Visitors’ Center",
             "address": "101 S LeSueur, Mesa, AZ",
             "cost": "Free",
-            "description": "Modern art museum in a striking building by architect Álvaro Siza, featuring works by Iberê Camargo.",
+            "description": "See how the temple and its glory.",
             "photo": "images/pic6.webp"    },
         {
             "name": "Goldfield Ghost Town",
             "address": "4650 N Mammoth Mine Rd, Apache Junction, AZ",
             "cost": "$ 10",
-            "description": "Botanical garden with native and exotic plants, walking trails, and educational exhibits.",
+            "description": "Very spooky stuff and some fun.",
             "photo": "images/pic7.webp"    },
         {
             "name": "Downtown Mesa",
             "address": "Around Main St & Macdonald, Mesa, AZ",
             "cost": "Free",
-            "description": "(murals, shops, walking)",
+            "description": "Murals, shops, walking",
             "photo": "images/pic8.webp"    }
     ]
 }

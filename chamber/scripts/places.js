@@ -4,7 +4,7 @@ async function loadPlaces() {
     displayPlaces(data.places);
 }
 
-const cards = document.querySelector("#cards");
+const pcards = document.querySelector("#pcards");
 loadPlaces()
 
 const displayPlaces = (places) => {
