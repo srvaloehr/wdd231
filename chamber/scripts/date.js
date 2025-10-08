@@ -15,3 +15,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+window.addEventListener("DOMContentLoaded", () => {
+    const messageContainer = document.createElement("p");
+    // Insert message at the top of the main content
+    const main = document.querySelector("main");
+    main.prepend(messageContainer);
+
+    const lastVisit = localStorage.getItem("lastVisit");
+    const now = new Date().toLocaleDateString();
+
+    if (lastVisit) {
+        messageContainer.textContent = `Welcome back! Your last visit was on ${lastVisit}.`;
+    } else {
+        messageContainer.textContent = "Welcome! This is your first visit.";
+    }
+
+    // Store current visit date
+    localStorage.setItem("lastVisit", now);
+});
