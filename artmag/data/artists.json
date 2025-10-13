@@ -1,0 +1,17 @@
+[
+  {"id":1,"name":"Vincent van Gogh","style":"Post-Impressionism","country":"Netherlands","famousWork":"Starry Night","born":"1853"},
+  {"id":2,"name":"Frida Kahlo","style":"Surrealism","country":"Mexico","famousWork":"The Two Fridas","born":"1907"},
+  {"id":3,"name":"Claude Monet","style":"Impressionism","country":"France","famousWork":"Water Lilies","born":"1840"},
+  {"id":4,"name":"Pablo Picasso","style":"Cubism","country":"Spain","famousWork":"Guernica","born":"1881"},
+  {"id":5,"name":"Leonardo da Vinci","style":"Renaissance","country":"Italy","famousWork":"Mona Lisa","born":"1452"},
+  {"id":6,"name":"Salvador Dalí","style":"Surrealism","country":"Spain","famousWork":"The Persistence of Memory","born":"1904"},
+  {"id":7,"name":"Georgia O'Keeffe","style":"Modernism","country":"USA","famousWork":"Jimson Weed","born":"1887"},
+  {"id":8,"name":"Jackson Pollock","style":"Abstract Expressionism","country":"USA","famousWork":"Number 1, 1950","born":"1912"},
+  {"id":9,"name":"Edvard Munch","style":"Expressionism","country":"Norway","famousWork":"The Scream","born":"1863"},
+  {"id":10,"name":"Michelangelo","style":"Renaissance","country":"Italy","famousWork":"David","born":"1475"},
+  {"id":11,"name":"Rembrandt","style":"Baroque","country":"Netherlands","famousWork":"The Night Watch","born":"1606"},
+  {"id":12,"name":"Andy Warhol","style":"Pop Art","country":"USA","famousWork":"Marilyn Diptych","born":"1928"},
+  {"id":13,"name":"Henri Matisse","style":"Fauvism","country":"France","famousWork":"The Dance","born":"1869"},
+  {"id":14,"name":"Joan Miró","style":"Surrealism","country":"Spain","famousWork":"The Garden","born":"1893"},
+  {"id":15,"name":"Diego Rivera","style":"Muralism","country":"Mexico","famousWork":"Detroit Industry Murals","born":"1886"}
+]

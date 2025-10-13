@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Famous Artists | ArtMag</title>
+    <meta name="description" content="Explore famous artists and their masterpieces at ArtMag." />
+    <meta name="author" content="Stephen (SRV)" />
+
+    <!-- Open Graph Meta for Sharing -->
+    <meta property="og:title" content="Famous Artists | ArtMag" />
+    <meta property="og:description" content="Discover the stories and art of iconic painters like Van Gogh and Da Vinci." />
+    <meta property="og:image" content="images/artmag-preview.jpg" />
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/artmag-small.css">
+    <link rel="stylesheet" href="styles/artmag-large.css">
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet" />
+
+    <script type="module" src="scripts/artist.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>ArtMag</h1>
+      <span class="hamburger">☰</span>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="artist.html" class="active">Artists</a></li>
+          <li><a href="learn.html">Learn</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Famous Artists</h2>
+      <p>Explore timeless works and learn about the visionaries who shaped art history.</p>
+    </section>
+
+    <main id="artist-gallery">
+      <!-- Artist Cards -->
+
+    </main>
+
+    <!-- Modal Dialog (for artist info) -->
+    <div id="artistModal" class="modal">
+      <div class="modal-content">
+        <h3 id="modalTitle"></h3>
+        <p id="modalText"></p>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 ArtMag Stephen Loehr</p>
+    </footer>
+  </body>
+</html>

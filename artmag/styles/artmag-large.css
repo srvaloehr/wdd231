@@ -1,0 +1,85 @@
+/* Larger screens */
+@media (min-width: 700px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    box-shadow: none;
+    background: none;
+  }
+
+  nav a {
+    color: white;
+    margin-left: 20px;
+  }
+
+  nav a:hover, nav a.active {
+    background: white;
+    color: #b80000;
+    padding: 6px 12px;
+    border-radius: 8px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  #artist-gallery, #learnGallery {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+  }
+
+  .card, .style-card {
+    margin: auto;
+    width: 90%;
+  }
+
+  .hero {
+    padding: 3rem;
+  }
+}
+.learn-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  background: #cc493d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.learn-btn:hover {
+  background: #ff3b2e;
+  transform: translateY(-3px);
+}
+/* Large screens */
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    display: flex !important;
+    width: auto;
+    background: none;
+    margin-top: 0;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: white;
+    padding: 0.5rem 0.75rem;
+  }
+
+  nav a:hover,
+  nav a.active {
+    background: white;
+    color: #b80000;
+  }
+}

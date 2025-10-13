@@ -1,0 +1,130 @@
+// artist.js
+document.addEventListener("DOMContentLoaded", () => {
+  const artistGallery = document.getElementById("artist-gallery");
+  const modal = document.getElementById("artistModal");
+  const modalBody = document.getElementById("modal-body");
+  const closeModalBtn = document.getElementById("closeModal");
+
+  const artists = [
+    {
+      name: "Vincent van Gogh",
+      image: "images/van-gogh.jpg",
+      info: "A Dutch post-impressionist painter known for his bold colors and emotional honesty. Famous works include *Starry Night* and *Sunflowers*."
+    },
+    {
+      name: "Leonardo da Vinci",
+      image: "images/da-vinci.jpg",
+      info: "An Italian polymath of the Renaissance, celebrated for *Mona Lisa* and *The Last Supper*. His notebooks reveal his genius in art and science."
+    },
+    {
+      name: "Frida Kahlo",
+      image: "images/frida.jpg",
+      info: "Mexican painter known for self-portraits and vivid symbolism exploring identity, pain, and cultural heritage."
+    }
+  ];
+
+  // Dynamically build artist cards
+  artists.forEach(artist => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${artist.image}" alt="${artist.name}">
+      <div class="card-content">
+        <h3>${artist.name}</h3>
+        <button class="learn-more">Learn More</button>
+      </div>
+    `;
+
+    // Show modal when Learn More clicked
+    card.querySelector(".learn-more").addEventListener("click", () => {
+      modalBody.innerHTML = `
+        <h2>${artist.name}</h2>
+        <p>${artist.info}</p>
+      `;
+      modal.style.display = "flex";
+    });
+
+    artistGallery.appendChild(card);
+  });
+
+  // Close modal
+  closeModalBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  // Click outside modal closes it
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
+
+
+
+
+      <div class="card">
+        <img src="images/van-gogh.jfif" alt="Starry Night by Vincent van Gogh">
+        <div class="card-content">
+          <h3>Vincent van Gogh</h3>
+          <p><strong>Style:</strong> Post-Impressionism</p>
+          <p><strong>Famous Work:</strong> The Starry Night</p>
+          <p><strong>About:</strong> Van Gogh was a Dutch painter known for his bold color, emotional honesty, and expressive brushwork. His art influenced generations of modern artists.</p>
+          <button class="info-btn" data-artist="vangogh">More Info</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/davinci.webp" alt="Mona Lisa by Leonardo da Vinci">
+        <div class="card-content">
+          <h3>Leonardo da Vinci</h3>
+          <p><strong>Style:</strong> High Renaissance</p>
+          <p><strong>Famous Work:</strong> Mona Lisa</p>
+          <p><strong>About:</strong> Da Vinci was an Italian polymath whose interests spanned painting, science, anatomy, and invention. He is celebrated for his precision and visionary creativity.</p>
+          <button class="info-btn" data-artist="davinci">More Info</button>
+        </div>
+      </div>
+      
+      <div class="card">
+            <img src="images/monet.jfif" alt="Water Lilies by Claude Monet">
+            <div class="card-content">
+            <h3>Claude Monet</h3>
+            <p><strong>Style:</strong> Impressionism</p>
+            <p><strong>Famous Work:</strong> Water Lilies</p>
+            <p><strong>About:</strong> Monet was a French painter and one of the founders of Impressionism. His focus on light and natural forms changed the direction of modern art.</p>
+            <button class="info-btn" data-artist="monet">More Info</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/michelangelo.jfif" alt="The Creation of Adam by Michelangelo">
+            <div class="card-content">
+            <h3>Michelangelo</h3>
+            <p><strong>Style:</strong> High Renaissance</p>
+            <p><strong>Famous Work:</strong> The Creation of Adam</p>
+            <p><strong>About:</strong> Michelangelo was an Italian sculptor, painter, and architect known for his influence on Western art. His works display deep emotion and incredible realism.</p>
+            <button class="info-btn" data-artist="michelangelo">More Info</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/rembrant.jfif" alt="The Night Watch by Rembrandt">
+            <div class="card-content">
+            <h3>Rembrandt</h3>
+            <p><strong>Style:</strong> Baroque</p>
+            <p><strong>Famous Work:</strong> The Night Watch</p>
+            <p><strong>About:</strong> Rembrandt was a Dutch painter known for his masterful use of light and shadow, and for his deeply human portrayals of people and scenes.</p>
+            <button class="info-btn" data-artist="rembrandt">More Info</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/warhol.jfif" alt="Campbell’s Soup Cans by Andy Warhol">
+            <div class="card-content">
+            <h3>Andy Warhol</h3>
+            <p><strong>Style:</strong> Pop Art</p>
+            <p><strong>Famous Work:</strong> Campbell’s Soup Cans</p>
+            <p><strong>About:</strong> Warhol was an American artist and leading figure in the Pop Art movement, known for his bold use of commercial imagery and exploration of consumer culture.</p>
+            <button class="info-btn" data-artist="warhol">More Info</button>
+            </div>
+        </div>

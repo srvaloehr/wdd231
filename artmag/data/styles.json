@@ -1,0 +1,7 @@
+[
+  {"id":1,"name":"Impressionism","era":"19th century","example":"Monet - Water Lilies","desc":"Loose brushwork, focus on light and atmosphere."},
+  {"id":2,"name":"Cubism","era":"Early 20th century","example":"Picasso - Les Demoiselles","desc":"Geometric shapes, multiple viewpoints."},
+  {"id":3,"name":"Surrealism","era":"20th century","example":"Dali - Persistence of Memory","desc":"Dream-like imagery and symbolic scenes."},
+  {"id":4,"name":"Abstract Expressionism","era":"Mid 20th century","example":"Pollock - Number 1","desc":"Emphasis on spontaneous, automatic, or subconscious creation."}
+]
+
