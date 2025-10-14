@@ -11,12 +11,12 @@ body {
   line-height: 1.6;
 }
 
-/* Header and Navigation */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* allows wrapping if space is tight */
+  flex-wrap: wrap; 
   padding: 1rem;
   background: linear-gradient(90deg, #b80000, #e63946);
   color: white;
@@ -159,9 +159,7 @@ button.learn-more:hover {
   background: #e63946;
 }
 
-/* ------------------------------
-   Modal Styles
------------------------------- */
+
 .modal {
   display: none;
   justify-content: center;
@@ -203,7 +201,8 @@ footer {
   color: #555;
   font-size: 0.9rem;
 }
-/* Welcome Tiles Section */
+
+
 .welcome-tiles {
   display: grid;
   grid-template-columns: 1fr;
@@ -252,7 +251,8 @@ footer {
     margin: 0 auto;
   }
 }
-/* Newsletter / Subscribe Section */
+
+
 .newsletter {
   max-width: 400px;
   margin: 1rem auto;

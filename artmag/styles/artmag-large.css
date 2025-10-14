@@ -54,7 +54,7 @@
   background: #ff3b2e;
   transform: translateY(-3px);
 }
-/* Large screens */
+
 @media (min-width: 700px) {
   .hamburger {
     display: none;

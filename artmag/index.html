@@ -8,7 +8,7 @@
   <meta name="author" content="Stephen Loehr" />
   <meta property="og:title" content="Artmag — Discover Art" />
   <meta property="og:description" content="Explore famous artists, styles, and quick lessons." />
-  <meta property="og:image" content="https://srvaloehr.github.io/wdd231/artmag/images/palette.svg" />
+  <meta property="og:image" content="https://srvaloehr.github.io/wdd231/artmag/images/favicon.ico" />
   <meta property="og:url" content="https://srvaloehr.github.io/wdd231/artmag/index.html" />
 
   <link rel="icon" href="favicon.ico" />
@@ -17,58 +17,57 @@
   <link rel="stylesheet" href="styles/artmag-small.css">
   <link rel="stylesheet" href="styles/artmag-large.css">
   <script type="module" src="scripts/nav.js"></script>
-  <script type="module" src="scripts/index.js" defer></script>
+  <script type="module" src="scripts/index.js"></script>
 </head>
 <body data-page="home">
-    <header>
-    <h1>ArtMag</h1>
-    <button id="hambtn" class="hamburger" aria-label="Toggle navigation">☰</button>
+  <header>
+    <span class="logo">ArtMag</span>
+    <span class="hamburger">☰</span>
     <nav>
-        <ul>
-        <li><a href="index.html">Home</a></li>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="artist.html">Artists</a></li>
         <li><a href="learn.html">Learn</a></li>
-        </ul>
+      </ul>
     </nav>
-    </header>
+  </header>
 
 
-<main>
-  <section class="hero">
-    <h2>Welcome to ArtMag</h2>
-    <p>Daily inspiration and short lessons on famous works and artists.</p>
-    <img src="images/abstract.jpg" alt="gallery" class="hero-img" loading="lazy">
-  </section>
+  <main>
+    <h1>Welcome to ArtMag</h1>
 
-  <section class="welcome-tiles">
-    <div class="tile">
-      <h3>Explore Artists</h3>
-      <p>Meet the visionaries who shaped the art world — from classic masters to modern innovators.</p>
-      <a href="artist.html">Visit Artists</a>
-    </div>
+    <section class="hero">
+      <p>Daily inspiration and short lessons on famous works and artists.</p>
+      <img src="images/abstract.jpg" alt="Gallery of art" class="hero-img" loading="lazy">
+    </section>
 
-    <div class="tile">
-      <h3>Learn Art Styles</h3>
-      <p>Dive into the techniques and styles that define every artistic movement — explained simply.</p>
-      <a href="learn.html">Start Learning</a>
-    </div>
-  </section>
+    <section class="welcome-tiles">
+      <div class="tile">
+        <h3>Explore Artists</h3>
+        <p>Meet the visionaries who shaped the art world — from classic masters to modern innovators.</p>
+        <a href="artist.html">Visit Artists</a>
+      </div>
 
-  <section class="newsletter">
-    <h3>Subscribe to ArtMag</h3>
-    <form id="signup" action="thankyou.html" method="get" novalidate>
-      <label for="name">Name</label>
-      <input id="name" name="name" type="text" required>
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" required>
-      <button type="submit">Join</button>
-    </form>
-  </section>
-</main>
+      <div class="tile">
+        <h3>Learn Art Styles</h3>
+        <p>Dive into the techniques and styles that define every artistic movement — explained simply.</p>
+        <a href="learn.html">Start Learning</a>
+      </div>
+    </section>
 
+    <section class="newsletter">
+      <h2>Subscribe</h2>
+      <form id="signup" action="thankyou.html" method="get" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <button type="submit">Join</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
-    <small>&copy; 2025 ArtMag Stephen Loehr</small>
+    <small>&copy; 2025 Artmag — Stephen Loehr</small>
   </footer>
 </body>
-</html>
