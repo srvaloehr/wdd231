@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (e.target === modal) modal.style.display = "none";
   });
 
-  // Display localStorage message (optional)
+  // Display localStorage message
   const lastArtist = localStorage.getItem("lastViewedArtist");
   if (lastArtist) {
     console.log(`You last viewed ${lastArtist}`);

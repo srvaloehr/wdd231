@@ -1,5 +1,5 @@
-// index.js
-import { initNav } from './nav.js'; // optional; already auto-init in nav.js but OK to import
+
+import { initNav } from './nav.js'; 
 // short script: persist name to localStorage from form submission
 const form = document.getElementById('signup');
 if (form) {
